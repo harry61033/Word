@@ -1,0 +1,175 @@
+	*{margin:0;padding:0;box-sizing: border-box;}
+		/* icon */
+		.icon{}
+		/* icon */
+		.ContentContainer{width: 100%;height: 100%;}
+		.Content{width: 100%;height: 100%;}
+		/* LOGO Content */
+		.LogoContentContainer{position: absolute;width: 100%;top: 0;height: 100%;
+		}
+		.LogoContent{width: 100%;height: 100%;}
+		.LogoBox{width: 25%;height: 45%;border:15px solid #fff;border-radius: 100%;padding:2%;margin-left: 37%;margin-top: 19%;-webkit-animation: Logocss 2.3s;animation-iteration-count:infinite;}
+		.LogoBox img{width: 100%;height: 100%;}
+		/*Header*/
+		.VideoContentContainer{width: 100%;height: 100%;position: relative;}
+		.VideoBox{width: 100%;height: 100%;overflow: hidden;}
+		.VideoBox iframe{margin-left: -38%;}
+		.HeaderBlackContent{width: 100%;height: 100%;background-color: rgba(0, 0, 0, .4);position: absolute;top: 0;}
+		.HeaderContent{width: 100%;position: relative;height: 56vw; transition: 0.3s;-webkit-animation: vedioCss 1s;}
+		.HeaderContentImg{width: 100%;height: 100%;position: absolute;overflow: hidden;top: 0;}
+		.HeaderContentImg >img{width: 100%;height: 100%;display: none;}
+		.bottonContentContainer{list-style: none;position: absolute;top: 0;width: 100%;height:auto;}
+		.BottonContent{width: 80%;margin-left: auto;margin-right: auto;-webkit-animation: loading 2.5s;height: 10vw;position: relative;}
+		.BottonBoxContent{width: 80%;height: 100%;margin-top: 8%;margin-left: auto;margin-right:auto;}
+		.bottonContentContainer li{width:auto;float: left;margin-left: 5%;text-align: center;transition: all 0.3s;transform: perspective(1px) translateZ(0);box-shadow: 0 0 1px transparent;overflow:hidden;}
+		.bottonContentContainer li:hover{border-bottom:3px solid #fff;margin-top: -0.5%;background-color:#fff;padding:0.5%;}
+		.bottonContentContainer li:hover span{color: #000;}
+		/* .BottonBoxContent a:hover{color:#000;} */
+		.bottonContentContainer span{text-decoration: none;font-family: 'Roboto Mono', monospace;color: #fff;font-size:2rem}
+		/*第二區塊css*/
+		.GraphicDesignContentContainer{width: 100%;height: auto;position: relative;height: 50vw;background-color: #000;color: #fff;opacity: 0;transition:opacity 1s;}
+		.GraphicDesignContentContainer span{background-color:none;}
+		.GraphicDesignContent{width: 100%;height: 100%;transition: all 1s;transition: all 2s;background-size: cover;}
+		.GraphicDesignContent{width: 100%;height: 100%;}
+		.TextContent{position:absolute;top: 0;z-index:0;left: 42%;top: 35%;-webkit-animation: FillUp 3s;display: none;}
+		.TextContent span{color: #fff;font-size: 4rem; transition: all 2s;animation: opacityStyle 3s;}
+		.BlackContent{width: 100%;height: 100%;background-color: rgba(0, 0, 0, 0.5);transition: all 1s;position: absolute;top: 0;}
+		.GraphicDesignBotton:hover .BlackContent{opacity: .3;}
+		.GraphicDesignBotton{width:100%;height: 100%;cursor: pointer;top: 0;background-size: cover;background-position: 50% 50%;}
+		.GrapicgImg{position: absolute;overflow: hidden;width: 100%;height:100%;}
+		.GrapicgImg img{width: 100%;height: 100%;transition: all 1.5s ease-in-out; }
+		.GraphicDesignBotton:hover .GrapicgImg > img{transform: scale(1.2)}
+		/* .GraphicDesignBotton:hover .GrapihgImg >img{transform: scale(1.1);} */
+		/* .GraphicDesignBotton:hover .TextContent > span{opacity: 1;} */
+		.GraphicDesignBotton:hover .TextContent{width:15%;opacity: 0.9;}
+		.GraphicDesignShowBoxContent{width: 100%;height:110vw;position: relative;display: none;}
+		.GraphicDesignShowBox{position: relative; width: 47%;height:20%;display: inline-block;float: left;margin-left: 2%;margin:0.5%;-webkit-animation: GarpichCSS 1s;border-radius: 15px;transition: all 1s;}
+		.GraphicImg{width: 100%;height:100%;overflow: hidden;position: absolute;border-radius: 15px;}
+		.GraphicImg img{width: 100%;height: 100%;transition: 1s;border-radius: 15px;}
+		.GraphicDesignShowBox:hover .GraphicImg > img{transform:scale(1.2);border-radius: 15px;}
+		.GraphicBlackContent{width: 100%;height: 100%;position: absolute;top: 0;background-color:rgba(0,0,0,.7);transition:all 1.5s ease-in;border-radius: 15px;}
+		.GraphicDesignShowBox:hover .GraphicBlackContent{opacity: 0;border-radius: 15px;}
+		.GraphicDesignShowBoxContainer{width: 100%;height: 100%;background-color: #f5f5f5;position: relative;background-image: url('image/2018/Banner01.jpg')}
+		.GraphicDesignShowBox:nth-child(1){margin-left: 2%;}
+		.GraphicDesignShowBox:nth-child(1),.GraphicDesignShowBox:nth-child(2){margin-top:  7%;}
+		.GraphicDesignShowBox:nth-child(3),.GraphicDesignShowBox:nth-child(5),.GraphicDesignShowBox:nth-child(7){margin-left: 2%;}
+/* 		.GraphicDesignShowBox:nth-child(4),.GraphicDesignShowBox:nth-child(5),.GraphicDesignShowBox:nth-child(6){margin-top: 0;-webkit-animation-delay: 0.3s;-webkit-animation: GarpichCSS 1.5s;s}
+ */		.slide_toggle {width: 100%;height: auto;text-align: center;cursor: pointer;font-weight: bold;line-height: 170%;position: relative;}
+		#slide_toggle{display: none;}
+		/* 第三區塊css */
+		.WesitbDesignContentContainer{width: 100%;height: auto;position: relative;height: 50vw;background-color: #000;color: #fff;opacity: 0;transition:opacity 1s;}
+		.WesitbDesignContentContainer span{background-color:none;}
+		.WesitbDesignContentContainer .GraphicDesignContent{width: 100%;height: 100%;background-position: 50% 50%;transition: all 1s;transition: all 2s;background-size: cover;}
+		.WebDesignContentContainer{width: 100%;height:100vw;position: relative;display: none;}
+		.WebDesginContent{width: 100%;height:100%;}
+		.WebBox{width:50%;height:23%;display:inline-block;float: left;-webkit-animation: WebDesignCSS 1s;transition: all 1s;position: relative;transition: all .3s ease-in-out;}
+/* 		.WebBox:nth-child(12){height:30%;}
+ */		.ImgContent{width: 100%;height: 100%;position: absolute;overflow: hidden;}
+		.WebShowblackContent{background-color: rgba(0,0,0,.7);width: 100%;height: 100%;position: absolute;top: 0;transition:all .8s ease-in-out;}
+		.WebBox img{width: 100%;height: 100%;transition:all 1.5s ease-in-out;}
+		.WebBox:hover .ImgContent >img{transform: scale(1.1);}
+		.WebBox:hover .WebShowblackContent{opacity:0;}
+		/* .WebBox:nth-child(1),.WebBox:nth-child(5),.WebBox:nth-child(9),.WebBox:nth-child(13){margin-left: 2.9%;} */
+		/* .WebBox:nth-child(1),.WebBox:nth-child(2),.WebBox:nth-child(3),.WebBox:nth-child(4){margin-top: 3%;} */
+		.WebBox:nth-child(5),.WebBox:nth-child(6),.WebBox:nth-child(7),.WebBox:nth-child(8){-webkit-animation: WebDesignCSS 1.5s;}
+		.WebBox:nth-child(9),.WebBox:nth-child(10),.WebBox:nth-child(11),.WebBox:nth-child(12){-webkit-animation: WebDesignCSS  2s;}
+		.WebBox:nth-child(13),.WebBox:nth-child(14),.WebBox:nth-child(15),.WebBox:nth-child(16){-webkit-animation: WebDesignCSS 2.5s;}
+		.TextContentTwo{position:absolute;top: 0;z-index:0;left: 42%;top: 35%;-webkit-animation: FillUp 3s;display: none;}
+		.TextContentTwo span{color: #fff;font-size: 4rem; transition: all 2s;animation: opacityStyle 3s;}
+		
+		@keyframes vedioCss{
+			from{opacity:0;}
+			to{opacity:1;}
+		}
+		@keyframes GarpichCSS{
+			0%{height: 0;opacity: 0;}
+			25%{height: 0;}
+			50%{height: 0;}
+			75%{height: 0;}
+			100%{height: 24%;opacity: 1;}
+		}
+		@keyframes WebDesignCSS{
+			0%{height: 0;opacity: 0;}
+			25%{height: 0;}
+			50%{height: 0;}
+			75%{height: 0;}
+			100%{height: 22%;opacity: 1;}
+		}
+		@keyframes  FillUp{
+			0%{width: 0%;}
+			25%{width: 0%;}
+			50%{width: 20%;background-color: #fff;}
+			75%{width: 0%;}
+			100%{width: 0%;}
+		}
+		@keyframes  opacityStyle{
+			0%{opacity: 0;}
+			25%{opacity: 0;}
+			50%{opacity: 0;margin-left: 50%;}
+			75%{opacity: 0.5;margin-left: 10%;}
+			100%{opacity: 1;margin-left: 0%;}
+		}
+		@keyframes  loading{
+			0%{opacity: 0;}
+			25%{opacity: 0;}
+			50%{opacity: 0;margin-top: 20%}
+			75%{opacity: .5;margin-top: 0%;}
+			100%{opacity: 1;margin-top: 0%;}
+		}
+		@keyframes  Logocss{
+			 0%  {-webkit-transform: scale(0.9);transform: scale(0.9);border: #fff 15px solid; box-shadow:0 0 60px rgba(255,50,0,1);}
+			 25% {-webkit-transform: scale(1);transform: scale();border: #fff 15px solid; box-shadow:0 0 60px rgba(200,150,200,1);}
+			 50% {-webkit-transform: scale(0.9);transform: scale(0.9);border: #fff 15px solid; box-shadow:0 0 60px rgba(0,150,100,1);}
+  			 75% {-webkit-transform: scale(1.05);transform: scale(1.05);border: #fff 15px solid; box-shadow:0 0 60px rgba(0,20,200,1);}
+  			 100%{-webkit-transform: scale(0.9);transform: scale(0.9);border: #fff 15px solid; box-shadow:0 0 60px rgba(0,150,200,1);}
+		}
+		@keyframes  LogocssStyle{
+			 0%  {-webkit-transform: scale(0.9);transform: scale(0.9);box-shadow:0 0 60px rgba(255,50,0,1);}
+			 25% {-webkit-transform: scale(1);transform: scale(1);box-shadow:0 0 60px rgba(200,150,200,1);}
+			 50% {-webkit-transform: scale(0.9);transform: scale(0.9);box-shadow:0 0 60px rgba(0,150,100,1);}
+  			 75% {-webkit-transform: scale(1.05);transform: scale(1.05); box-shadow:0 0 60px rgba(0,20,200,1);}
+  			 100%{-webkit-transform: scale(0.9);box-shadow:0 0 60px rgba(0,150,200,1);}
+		}
+		/* RWD */
+		@media only screen and (max-width: 768px){
+			.HeaderContent{height: 200vw;}
+			.VideoBox iframe{display: none;}
+			.HeaderContentImg img{display: block;}
+			.VideoContentContainer{display: none;}
+			.LogoBox{width: 75%;height: 39%;margin-left: 13%;margin-top: 24%;}
+			.GraphicDesignContentContainer{height:50vw;opacity: 1;}
+			.WesitbDesignContentContainer{height: 50vw;}
+			.bottonContentContainer{width: 100%;top:63%;}
+			.bottonContentContainer li{width: 100%;margin-top: 5%;margin-left:0%;}
+			.bottonContentContainer a{text-decoration: none;font-family: 'Roboto Mono', monospace;color: #fff;font-size:1.5rem}
+			.TextContent{left: 15%;top: 40%;}
+			.TextContent span{font-size: 2.3rem;}
+			.TextContentTwo{left: 18%;top: 41%;}
+			.TextContentTwo span{font-size: 2.3rem;}
+			.GraphicDesignShowBox:nth-child(1){margin-left: 0%;}
+			.GraphicDesignShowBox{width: 100%;height: 16.7%;border-radius: 0px;margin-left: 0%;margin:0;}
+			.GraphicDesignShowBoxContent{height: 250vw;}
+			.GraphicDesignShowBox:nth-child(4),.GraphicDesignShowBox:nth-child(5).GraphicDesignShowBox:nth-child(6){margin-left: 0%;}
+			.WebBox{width: 100%;height: 41%;}
+			@keyframes  FillUp{
+			0%{width: 0%;}
+			25%{width: 0%;}
+			50%{width: 80%;background-color: #fff;}
+			75%{width: 0%;}
+			100%{width: 0%;}
+		}
+			@keyframes  Logocss{
+			 0%  {-webkit-transform: scale(0.9);transform: scale(0.95);border: #fff 15px solid; box-shadow:0 0 60px rgba(255,50,0,1);}
+			 25% {-webkit-transform: scale(1);transform: scale();border: #fff 15px solid; box-shadow:0 0 60px rgba(200,150,200,1);}
+			 50% {-webkit-transform: scale(0.9);transform: scale(0.95);border: #fff 15px solid; box-shadow:0 0 60px rgba(0,150,100,1);}
+  			 75% {-webkit-transform: scale(1.05);transform: scale(1.01);border: #fff 15px solid; box-shadow:0 0 60px rgba(0,20,200,1);}
+  			 100%{-webkit-transform: scale(0.9);transform: scale(0.95);border: #fff 15px solid; box-shadow:0 0 60px rgba(0,150,200,1);}
+		}
+		@keyframes GarpichCSS{
+			0%{height: 0;opacity: 0;}
+			25%{height: 0;}
+			50%{height: 0;}
+			75%{height: 0;}
+			100%{height: 15%;opacity: 1;}
+		}
+		}
