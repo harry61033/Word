@@ -1,4 +1,3 @@
-$(function(){
 $("#Show").click(function(){
 			$(this).next().slideToggle();
 		});
@@ -11,7 +10,7 @@ $("#Show").click(function(){
  	$(function(){
 			$(window).scroll(function(){
 				var $scroll_top = $(window).scrollTop();
-			if($scroll_top >= 500){
+			if($scroll_top >= 100){
 				// alert();
 				$('.GraphicDesignContentContainer').css({'opacity':'1'});
 				$('.TextContent').css({'display':'block'});
@@ -28,7 +27,7 @@ $("#Show").click(function(){
  	$(function(){
  		   $(window).scroll(function(){
 				var $scroll_top = $(window).scrollTop();
-			if($scroll_top >= 100){
+			if($scroll_top >= 200){
 				// alert();
 				$('.WesitbDesignContentContainer').css({'opacity':'1'});
 				$('.TextContentTwo').css({'display':'block'});
