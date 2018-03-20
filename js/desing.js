@@ -1,3 +1,4 @@
+$(function(){
 $("#Show").click(function(){
 			$(this).next().slideToggle();
 		});
