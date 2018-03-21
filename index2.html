@@ -20,10 +20,27 @@
 				</div>
 				<div class="h1">
 					<div class="h1box">
-						<span>TEXT</span>
+						<span>工作經歷</span>
 					</div>
 				</div>
+				<div class="experienceContentContainer">
+					<div class="experienceContent">
+						<div class="experienceTextContent">
+							<li>1. 赫綵設計 __ 平面助理</li>
+							<li>2. 婧亮生技 __ 平面設計</li>
+							<li>1. 華美航運 __ 網頁設計</li>
+						</div>
+					</div>
+				</div>
+				<div class="WordContentContainer">
+					<div class="WrodContent">
+						<div class="WordTextContent">
+							<div class="WorTextBox"><span>個人作品網站：</span></div>
+						</div>
+					</div>
+				</div>	
 			</div>
+			<!-- 分隔線 -->
 		</div>
 	</div>
 
@@ -40,11 +57,26 @@
 		.TextContent:after{position: absolute;top: 0;left: 0;right: 0;bottom:0;background-color: rgba(255,255,255,0.8);z-index: -1;background-color: #f5f5f5;background-position: center top;background-size: cover;filter: blur(20px);overflow: hidden;}
 		.TextContent:after{margin:-30px;}
 		.TextBoxContent img{width: 100%;height: 100%;}
-		.h1{width: auto;height: auto;color: #fff;font-size: 3rem;position: absolute;top:10%;left: 43%;}
-
+		.h1{width: auto;height: auto;color: #fff;font-size: 3rem;position: absolute;top:10%;left: 41%;}
+		.experienceContentContainer{width: 100%;height: 40vw;position: absolute;}
+		.experienceContent{width: 100%;height: 100%;}
+		.experienceTextContent{width: 80%;height: 10vw;margin-top: 20%;text-align: center;}
+		.experienceTextContent li{color: #fff;font-size: 2rem;list-style: none;margin-top: 5%;}
+		.WordContentContainer{width: 100%;height: 30vw;position: absolute;top: 50%;}
+		.WrodContent{width: 100%;height: 100%;padding:5%;}
+		.WordTextContent{width: 100%;height: 100%;border-top: 3px solid #fff;}
+		.WordTextContent span{color: #fff; font-size: 2rem;}
+		.WorTextBox{width: auto;height: auto;margin-top: 5%;}
+		.WorTextBox span{margin-left: 21%;}
 		@media only screen and (max-width: 768px){
 			.LogoContent{height: 10vw;}
-			.h1{left: 38%;}
+			.h1{left:10%;font-size: 1.7rem;}
+			.experienceTextContent li{color: #fff;font-size: 1rem;list-style: none;margin-top: 5%;}
+			html img{width: 100%;height:178vw;position: absolute;top: 0;}
+			.MainContent{margin-top:41%;}
+			.LogoContent{top: -8%;}
+			.LogoTextContent span{font-size: 1.5rem;}
+			.experienceTextContent{margin-top: 26%;}
 		}
 	</style>
 </body>
