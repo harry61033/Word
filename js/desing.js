@@ -27,7 +27,7 @@ $("#Show").click(function(){
  	$(function(){
  		   $(window).scroll(function(){
 				var $scroll_top = $(window).scrollTop();
-			if($scroll_top >= 450){
+			if($scroll_top >= 300){
 				// alert();
 				$('.WesitbDesignContentContainer').css({'opacity':'1'});
 				$('.TextContentTwo').css({'display':'block'});
