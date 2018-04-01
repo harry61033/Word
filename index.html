@@ -81,11 +81,11 @@
 											</div>
 											<div class="WebsiteLinkContentContainer">
 												<div class="WebsiteLink">
-													<a href=""><p>Gohere</p></a>
+													<a href="inedx3.html"><p class="Index3Text">Gohere</p></a>
 												</div>
 												<div class="LinkBorderContentContainer">
-													<h2>TEXT</h2>
-													<p>texttext</p>
+													<h2>Website</h2>
+													<p></p>
 												</div>
 												<div class="LinkBackgroundimageContent">
 													<img src="image/website.jpg">
@@ -128,7 +128,7 @@
 											<div class="GapichLinkContentContainer">
 												<div class="GpaichBorderContent">
 													<h2 class="GapichLinkTextContent">Pinterest</h2>
-													<span class="GapichSpanContent">texttext</span>
+													<span class="GapichSpanContent">Gapich</span>
 												</div>
 												<div class="GapichLinkImgContentContainer">
 													<div class="GapichImgBlackContent"></div>
@@ -136,7 +136,7 @@
 												</div>
 											</div>
 											<div class="GapichLinkContent">
-												<a href=""><p>Gohere</p></a>
+												<a href=""><p class="GapichText">Gohere</p></a>
 											</div>
 										</div>	
 									</div>
@@ -196,7 +196,7 @@
 		.WebsiteContentContainer{width: 40%;height: 100%;display: inline-block;float: left;}
 		.WebsiteContentH2{width:30%;height: 55%;position: absolute;margin-top: 7%;left: 11%;}
 
-		.WebsiteContentContainer span{font-size: 10vmin; color: #fff; position: absolute; left: 0;font-family:微軟正黑體;animation:; animation: LinkH1css 1s;}
+		.WebsiteContentContainer span{font-size: 8vmin; color: #fff; position: absolute; left: 0;font-family:微軟正黑體;animation:; animation: LinkH1css 1s;}
 		.WebsiteLinkContentContainer{display: inline-block;width:60%;right: 0;top: 0;height: 100%;float: left;position: relative;}
 		.WebsiteLink{width: 50%;height:auto;position: absolute;left:6%;z-index: 1;top:19%;animation:GOherecss 1 s;}
 		.WebsiteLink a{text-decoration: none;font-size: 7vmin;color: #fff;}
@@ -251,9 +251,14 @@ background: -o-radial-gradient(center, ellipse cover, rgba(84, 160, 90, 0)10%, r
 		.Div3LinkContentCintainer{width:50%;height: 100%;position: absolute;top: 0;left: 0;bottom:0;}
 		.Div3H2Content{width:50%;height: 50%;top: 20%;left: 20%;position: absolute;animation:LinkH2css 2s;}
 		.Div3H2Content span{color: #fff;font-size: 10vmin;}
-		.GapichLinkContent{width:37%;height: 100%;position: absolute;right: 0;top: 0;}
+		.GapichLinkContent{width:37%;height: 100%;position: absolute;right: 0;top: 0;transition:  all 1s;}
 		.GapichLinkContent a{color: #fff;font-size: 6vmin;text-decoration: none;}
 		.GapichLinkContent p{margin-top: 96%;margin-left: -46%;animation:GohereTwoCss 3s;}
+		.GapichLinkContent :hover .GapichLinkContent > p{color: 	#5555FF;}
+		.Index3Text:hover{color:#00FFFF;}
+		.Index3Text{transition:all 0.5s;}
+		.GapichText{transition: all 0.5s;}
+		.GapichText:hover{color: #00FFFF;}
 		/* 第三區塊更新 */
 		.WesitbDesignContentContainer{width: 100%;height: auto;position: relative;height: 50vw;background-color: #000;color: #fff;opacity: 0;transition: opacity 1s;}
 		.WesitbDesignContentContainer .GraphicDesignContent{width: 100%;height: 100%;background-position: 50% 50%;transition: all 1s;transition: all 2s;background-size: cover;}
@@ -382,8 +387,12 @@ background: -o-radial-gradient(center, ellipse cover, rgba(84, 160, 90, 0)10%, r
 			.WebsiteLink{width:100%;}
 			.WebsiteLink p{margin-top: 40%;margin-left:-35%;animation: GOherePhonecss 3s;}
 			.WebsiteLink a{font-size: 5vmin;}
+			.WebsiteLink p:hover{color: #000;}
 			.GapichLinkTextContent{margin-top:26%;}
 			.GapichLinkContent p{font-size: 5vmin;}
+			.Div3H2Content span{font-size:6vmin;}
+			.topContent{top: 86%;width: 50px;height: 50px;}
+			.topContent span{font-size: 1.1rem;line-height: 52px;}
 			@keyframes GOherePhonecss{
 			0%{margin-left: -120%;opacity:0;}
 			25%{margin-left: -100%;opacity:0;}
