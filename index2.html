@@ -52,12 +52,20 @@
 					</div>
 				</div>
 			<!-- 分隔線 -->
+			<div class="ContcatMe">
+				<div class="Mail"><span>Mail:harry61033@gmail.com</span></div>
+				<div class="phone"><span>M.P:0970-111-694</span></div>
+			</div>
+
 		</div>
 	</div>
 
 	<style type="text/css">
 	 	*{margin:0;padding:0;box-sizing: border-box;}
 	 	html img{width: 100%;height:100vw;position: absolute;top: 0;}
+	 	.ContcatMe{width: 100%;height:auto;top: 75%;color: #fff;position: absolute;font-size: 5vmin;}
+	 	.ContcatMe span{margin-left: 40%;}
+	 	.phone{margin-top: 3%;}
 	 	.BodyBlackContent{width: 100%;height: 100%;position: absolute;top: 0;left: 0;bottom: 0;background-color: rgba(0, 0, 0, .2)}
 	 	.blockContentContainer{width: 100%;height: 5vw;margin-top: 2.5%;opacity: 0;transition:  all 1.5s ease-in-out;}
 		.blockContent{width: 100%;height: 100%;text-align: center;}
@@ -98,24 +106,25 @@
 		.WrodContent{width: 100%;height: 100%;padding:5%;}
 		.WordTextContent{width: 100%;height: 100%;border-top: 3px solid #fff;transition: 0.5s;}
 		.WordTextContent span{color: #fff; font-size: 2rem;}
-		.WorTextBox{width: auto;height: auto;margin-top: 5%;display: none;transition: all 1s;opacity: 0;animation: WorTextBox 1s;margin-top: 10%;}
-		.WorTextBox:nth-child(1){margin-top: 17%;animation:WorTextBoxone 1s;}
+		.WorTextBox{width: auto;height: auto;margin-top: 5%;display: none;transition: all 1s;opacity: 0;animation: WorTextBox 1s;}
+		.WorTextBox:nth-child(1){animation:WorTextBoxone 1s;}
 		@keyframes  WorTextBox{
-				from{margin-top: 30%;opacity:0;}
-				to{margin-top: 10%;opacity:1;}
+				from{margin-top: 20%;opacity:0;}
+				to{margin-top: 5%;opacity:1;}
 			}
 		@keyframes  WorTextBoxone{
-				from{margin-top: 30%;opacity:0;}
-				to{margin-top: 17%;opacity:1;}
+				from{margin-top: 20%;opacity:0;}
+				to{margin-top: 5%;opacity:1;}
 			}
 		.WorTextBox span{margin-left: 38%;transition: 0.5s;border:3px solid #fff;padding:1%;}
 		.WorTextBox  a {text-decoration: none;}
 		.WorTextBox:hover span{background-color: #fff;color: #aaa;}
 		.backgroundcolor{width: 100%;height: 100%;background-color: #fff;opacity:0.2;position: absolute;z-index: 1;filter: blur(2px);}
-
-
+		
 		/* RWD */
 		@media only screen and (max-width: 768px){
+			.ContcatMe{top: 115%;}
+			.ContcatMe span{margin-left:23%;}
 			@keyframes  LogoContentcss{
 			from{transform:rotate(0deg);height:0vw;width: 0%;opacity:0;margin-top:20%;}
 			to{transform:rotate(360deg);height:27vw;opacity:1;margin-top: 0%;}
