@@ -1,0 +1,209 @@
+@charset "UTF-8";
+* {
+  transition: all 0.3s;
+  font-family: 微軟正黑體, Roboto, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: bold;
+  color: #212121;
+}
+
+.navbar.navbar-light.bg-light.navstyle {
+  margin-bottom: 0px;
+  min-height: 50px;
+}
+
+header.jumbotron {
+  text-align: center;
+  background-image: url(http://www.jianglishi.cn/uploadfile/2016/0707/20160707842680.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+header.jumbotron .container {
+  color: white;
+  padding: 150px 0px;
+}
+header.jumbotron hr {
+  max-width: 50px;
+  border: solid 2px #FFEA00;
+}
+header.jumbotron h4 {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: normal;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#section_ask {
+  background-color: #FFEA00;
+}
+section#section_ask .col-sm-5.img {
+  background-image: url(https://i.pinimg.com/originals/bd/87/c5/bd87c5d3e9ba10f1dcf59664c5b845ec.png);
+  height: 400px;
+  background-size: cover;
+}
+section#section_ask h2 {
+  margin-top: 0px;
+  padding-bottom: 30px;
+}
+section#section_ask .col-sm-7 hr {
+  width: 100%;
+  border-bottom: 1px solid #FF9100;
+}
+
+section#section_about h3 {
+  padding: 15px;
+}
+section#section_about img {
+  width: 100%;
+  background-size: cover;
+}
+section#section_about .img_wrap {
+  height: 300px;
+  overflow: hidden;
+}
+section#section_about .img_wrap .col-md-6 h3 {
+  padding: 10px;
+}
+
+section#section_story {
+  background-color: #222;
+  color: white;
+  padding: 0;
+}
+section#section_story .texth1 {
+  height: 30px;
+}
+section#section_story h1 {
+  padding: 20px 10px;
+}
+section#section_story h4, section#section_story h1 {
+  color: white;
+}
+section#section_story .col-sm-5 {
+  background-image: url(https://stutzfamily.com/mrstutz/Maps/USHistory/europe1938.gif);
+  background-size: 100% auto;
+  height: 400px;
+}
+section#section_story .col-sm-5 .cross {
+  position: absolute;
+  left: 23%;
+  top: 40%;
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+}
+section#section_story .col-sm-7 {
+  text-align: center;
+}
+section#section_story .col-sm-7 i {
+  font-size: 40px;
+}
+section#section_story .col-sm-12.features {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+section#section_future row {
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+section#section_future p {
+  font-size: 14px;
+  padding: 25px;
+}
+section#section_future .col-sm-6 {
+  padding: 0px;
+  cursor: pointer;
+}
+section#section_future .col-sm-6:hover {
+  filter: brightness(0.4);
+  background-size: auto 100%;
+}
+section#section_future .col-sm-6:hover p {
+  color: #fff;
+  opacity: 1;
+}
+section#section_future .col-sm-6:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition-duration: 0.5s;
+  background-position: center center;
+}
+section#section_future img {
+  width: 100%;
+}
+section#section_future i {
+  font-size: 30px;
+}
+section#section_future .feature {
+  padding: 0px 25px;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer.jumbotron {
+  text-align: center;
+  background-image: url(http://www.jianglishi.cn/uploadfile/2016/0707/20160707842680.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+footer.jumbotron input {
+  background-color: transparent;
+  max-width: 350px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer.jumbotron .container {
+  color: white;
+  padding: 60px 0px;
+}
+footer.jumbotron hr {
+  max-width: 50px;
+  border: solid 2px #FFEA00;
+}
+
+@media only screen and (max-width: 986px) {
+  section#section_about .img_wrap {
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  section#section_about .img_wrap {
+    height: 180px;
+  }
+}
+@media only screen and (min-width: 500px) {
+  section#section_about .img_wrap {
+    height: 150px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  section#section_about .img_wrap {
+    height: 250px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  section#section_about .img_wrap {
+    height: 300px;
+  }
+
+  section#section_ask .col-sm-7 {
+    padding-top: 40px;
+  }
+}
