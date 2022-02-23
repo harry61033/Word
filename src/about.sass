@@ -88,6 +88,17 @@ body,.container-fluid
           align-items: center
           span
             font-size: 36px
+.aboutBanner_content
+  transition: 1s
+  margin: 100px auto 0px auto
+  position: relative
+  padding: 0
+  height: 60vh
+  .aboutBanner_img
+    width: 100%
+    height: 100%
+    background-image: url('https://images.unsplash.com/photo-1581287053822-fd7bf4f4bfec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1501&q=80')
+    background-size: cover
 .banner_content
   position: relative
   padding: 0
@@ -101,40 +112,38 @@ body,.container-fluid
 .aboutContent
   position: relative
   width: 100%
-  padding: 220px 0px 240px
-  .col-8
-    transition: 1s
-    a
-      width: 100%
-      height: 100%
-      transition: 1s
-      text-decoration: none
-      .linkTet
-        transition: 1s
-  .workText
-    h3,p
-      transition: 1s
-    p
-      transition-delay: 0.5s
+  padding: 160px 0px 160px 0px
   .aboutText
     margin: auto
     margin-bottom: 40px
-    h1,p
+    h1
       transition: 1s
-    .button
+    .col-10
       transition: 1s
-      a
+      position: relative
+      display: block
+      word-break: break-all
+      margin: 60px auto 60px auto
+      p
         transition: 1s
+      span:nth-child(1)
+        color: #878787
   .ExperienceContainer
     height: 300px
     position: relative
     .ExperienceImg
-      transition: 1s
       width: 100%
       height: 100%
       background-size: cover
       background-image: url('https://images.unsplash.com/photo-1641630376328-300d430d8b15?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80')
-      
+.skillContainer
+    .aboutContent
+      .aboutText
+        .col-10
+          .skillText
+            margin: 0
+            color: #878787
+            padding-bottom: 8px
 .workContainer
   padding: 0
   background-color: #f2f5f9
@@ -146,16 +155,10 @@ body,.container-fluid
     .row
       .workText
         padding: 0
-        transition: 1s
         h1
           margin: 40px 0px
-        p
-          transition: 1s
     .row
-      .workItemts:nth-child(even)
-        transition-delay: 0.5s
       .workItemts
-        transition: 1s
         padding: 0
         position: relative
         margin-bottom: 5%
@@ -164,8 +167,6 @@ body,.container-fluid
         &:nth-of-type(2n)
           margin-right: 0 
         a
-          width: 100%
-          height: 100%
           text-decoration: none
         .workImgContainer
           max-width: 100%
@@ -173,11 +174,10 @@ body,.container-fluid
           .workImg
             width: 100%
             overflow: hidden
-            position: relative
             &:hover img
                 transform: scale(1.2,1.2)
             &:hover .workBlack
-                opacity: 0.75
+                opacity: 0.5
                 background-color: #000
             &:hover .workBlack .blackText
                 opacity: 1
@@ -199,9 +199,9 @@ body,.container-fluid
                     top: 50%
                     left: 50%
                     transform: translate(-40%,-50%)
-                    font-size: 24px
-                    text-decoration: none
-                    color: #fff
+                    a
+                      text-decoration: none
+                      color: #fff
         .workTextContainer
             display: block
             position: relative
@@ -249,7 +249,6 @@ body,.container-fluid
   .CopyrightBox
     span
       font-weight: blod
-      
       
 // mobile css content
 
